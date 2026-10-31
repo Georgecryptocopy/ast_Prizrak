@@ -1,0 +1,9 @@
+[project]
+name = "ast_trader"
+version = "0.1.0"
+description = "Algo Structure Trader — торговая система на структурах"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
